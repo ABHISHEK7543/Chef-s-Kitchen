@@ -29,7 +29,7 @@ const Create = () => {
 
     return (
         <form onSubmit={handleSubmit(SubmitHandler)}
-        className="w-1/2 h-150 border-4 to-black bg-amber-200 mt-5 rounded-2xl "
+        className="createform w-1/2 h-150 border-4 to-black bg-amber-200 mt-5 rounded-2xl "
         >
             <input 
             className="w-full rounded-2xl h-16 block outline-none mb-2 border-4  black"
@@ -64,8 +64,13 @@ const Create = () => {
                     <option value="supper">Supper</option>
                     <option value="dinner">Dinner</option>
             </select>
-            <button className="p-4 bg-green-400 rounded-full ">Register Recipe</button>
+            <div className="flex items-center justify-center">
+
+           
+            <button className="p-4 bg-green-400 rounded-full">Register Recipe</button>
+                </div>
         </form>
+
     );
 };
 

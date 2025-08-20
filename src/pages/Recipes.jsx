@@ -15,7 +15,7 @@ const Recipes = () => {
         <>
          <div className="p-5 mt-10 flex flex-wrap">
             <Link
-                className="absolute right-[10%] bg-red-400 px-4 py-2 rounded"
+                className="createbtn absolute top-36 right-[5%] bg-yellow-400 px-4 py-2 rounded"
                 to="/recipes/create-recipe"
             >
                 Create Recipe

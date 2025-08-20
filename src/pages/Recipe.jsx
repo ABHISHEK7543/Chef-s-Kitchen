@@ -62,9 +62,9 @@ const Recipe = () => {
     };
 
     return recipe ? (
-        <div className="w-full  flex mt-10">
+        <div className="w-full  flex mt-10 flex-wrap">
             {/*  */}
-            <div className="relative left w-1/2 p-2">
+            <div className="updatedata relative left w-1/2 p-2">
                 <h1 className="mb-5 text-5xl font-bold">{recipe.title}</h1>
                 {/*  */}
                 {fav.find((f) => f.id == id) ? (
@@ -96,7 +96,7 @@ const Recipe = () => {
             </div>
             {/*  */}
             <form
-                className="right p-10 w-1/2"
+                className="formupdate right p-10 w-1/2"
                 onSubmit={handleSubmit(SubmitHandler)}
             >
                 <input
@@ -142,7 +142,7 @@ const Recipe = () => {
                     <option value="dinner">Dinner</option>
                 </select>
                 <button
-                    className="mr-5 text-xl px-4 py-2 bg-blue-400 rounded"
+                    className="mr-5 text-xl px-4 py-2 bg-blue-400 rounded mb-5"
                     type="submit"
                 >
                     Update Recipe

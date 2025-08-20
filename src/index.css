@@ -1,1 +1,61 @@
 @import "tailwindcss";
+
+@media (max-width:450px) {
+    .abhi{
+        color: blue;
+    }
+    .textonpic{
+        font-size: 10vw;
+    }
+    .picbotton{
+        font-size: medium;
+    }
+    .sitename{
+        font-size: 6vh;
+        
+    }
+    .nav{
+        display: none;
+    }
+    .login{
+        display: none;
+    }
+    .input{
+        display: none;
+    }
+    .menu{
+        display: block;
+        margin-left: 100px;
+        
+    }
+    .createform{
+        width: auto;
+    }
+    .emailinput{
+        scale: 0.6;
+    }
+    .sub{
+        scale: 0.6;
+        margin-left:70px;                                       
+    }
+    .recipecard{
+        width: 100%;
+    }
+    .createbtn{
+        margin-right: 38%;
+        scale: 0.8;
+        
+    }
+
+   .updatedata{
+        width: 100%;
+
+    }
+    .formupdate
+    {
+        width: 100%;
+
+    }
+
+    
+}

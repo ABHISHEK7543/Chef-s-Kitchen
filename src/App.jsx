@@ -2,7 +2,7 @@ import React from 'react'
 
 import Mainroutes from './routes/Mainroutes'
 import Navbar from './components/Navbar'
-import Cards from './components/Cards'
+
 
 const App = () => {
   return (
